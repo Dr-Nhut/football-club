@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MU | Đăng Nhập</title>
+    <link rel="shortcut icon" href="./img/Manchester-United-favicon.ico" type="image/x-icon">
+
+    <!-- <link rel="stylesheet" href="css/styleLogin.css"> -->
+
+
+
+</head>
+<style>
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    * {
+
+        box-sizing: border-box;
+
+    }
+
+    @font-face {
+        font-family: bebas;
+        src: url(../NienLuanCSNganh/font/Bebas_Neue/BebasNeue-Regular.ttf);
+    }
+
+    .header1 {
+
+        background-color: rgb(159, 18, 18);
+    }
+
+    .header1 img {
+        width: 70px;
+    }
+
+    .log-in {
+        font-family: bebas;
+        width: 50%;
+        margin-left: 350px;
+        height: 550px;
+        margin-top: 50px;
+        text-align: center;
+        box-shadow: 0 0 20px;
+
+    }
+
+    .log-in .logo-mu img {
+        margin-top: 100px;
+        width: 150px;
+    }
+
+    .log-in h1 {
+        margin-bottom: 50px;
+    }
+
+    .main-login .sbmit {
+        margin-top: 10px;
+        width: 400px;
+        height: 30px;
+    }
+
+    .main-login .box-login {
+        width: 400px;
+        height: 30px;
+    }
+
+    .footer {
+        float: left;
+        background-color: #2a2a2a;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        position: relative;
+
+    }
+
+    .item {
+        padding-top: 40px;
+        padding-bottom: 80px;
+        margin-left: 550px;
+    }
+
+    .item ul {
+        list-style: none;
+
+    }
+
+
+
+    .item ul a li {
+        float: left;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: #3f3f3f;
+        margin-left: 15px;
+
+    }
+
+
+
+    .item ul li img {
+
+        text-decoration: none;
+        margin-top: 10px;
+        max-width: 25px;
+        max-height: 25px;
+        object-fit: cover;
+
+
+    }
+
+   
+
+    .footer-menu-link {
+        background-color: black;
+        padding: 10px;
+    }
+
+    .footer-menu-link ul li {
+        display: inline;
+        margin-left: 10px;
+
+    }
+
+    .footer-menu-link a {
+
+        color: white;
+        float: left;
+        margin-left: 15px;
+
+        text-decoration: none;
+    }
+
+
+    .footer-menu-link span {
+        float: right;
+        margin-right: 10px;
+        color: whitesmoke;
+        margin-bottom: 16px;
+    }
+
+    .sponsor {
+        width: 100%;
+        margin-top: -20px;
+        background-color: white;
+
+    }
+
+    .sponsor ul li {
+        display: inline;
+        text-decoration: none;
+    }
+
+    .sponsor ul li img {
+
+        margin-left: 30px;
+        margin-top: 30px;
+        object-fit: cover;
+
+    }
+
+    .sponsor-secondary {
+        margin-top: 0;
+    }
+
+
+
+    .secondary li img {
+        object-fit: cover;
+        margin-bottom: 80px;
+    }
+
+    hr {
+        padding-top: 2px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        background-color: aqua;
+    }
+
+    .clear {
+        clear: both;
+    }
+</style>
+
+<body>
+
+
+    <div class="header1">
+        <a href="index.html"><img src="img/logo-manchester-united-4.png" alt=""></a>
+    </div>
+
+    <form action="opt_php/eSMS_PHP_DEMO_JSON_Rest/PHP_DEMO_JSON_Rest/PHP_DEMO_JSON_Rest/otp.php" method="post">
+
+        <!-- Phone Number :
+        <input type="text" name="number">
+        Verify OTP :
+        <input type="text" name="otp">
+        <input type="submit" name="ver" value="verify otp">
+        <input type="submit" name="login" value="sign(login)"> -->
+        <!-- <button type="submit" name="ver">Gửi</button> -->
+
+        <div class="log-in">
+            <div class="logo-mu"><img src="img/logo-manchester-united-4.png" alt=""></div>
+            <div class="main-login">
+                <h1>LOG-IN</h1>
+                <input type="text" name="number" style="text-align: center" placeholder="Số Điện Thoại"
+                    class="box-login"> <br>
+                <button class="sbmit" type="submit">Gửi</button>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+
+
+    </form>
+    <hr>
+
+    <div class="footer">
+
+
+        <div class="sponsor">
+            <ul>
+                <li><img width="70px" src="img/Adidas_đen.jpg" alt=""></li>
+                <li><img width="200px" src="img/TeamViewer-đen.jpg" alt=""></li>
+                <li><img width="120px" src="img/TezosLogo_đen.jpg" alt=""></li>
+                <li><img width="100px" src="img/DXC_Lđen.jpg" alt=""></li>
+            </ul>
+
+            <div class="clear"></div>
+            <div class="sponsor-secondary">
+                <ul class="secondary">
+                    <li><img width="100px" src="img/Apollo.png" alt=""></li>
+                    <li><img width="100px" src="img/Chevrolet.png" alt=""></li>
+                    <li><img width="100px" src="img/Cadbury.png" alt=""></li>
+                    <li><img width="80px" src="img/Canon.jpg" alt=""></li>
+                    <li><img width="130px" src="img/Konami.png" alt=""></li>
+                    <li><img width="100px" src="img/Kohler.png" alt=""></li>
+                    <li><img width="130px" src="img/Ecolab.png" alt=""></li>
+                    <li><img width="150px" src="img/Remington.png" alt=""></li>
+                </ul>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+        <div class="item">
+
+
+            <ul>
+                <a href="#">
+                    <li><img src="img/youtube.png" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="img/facebook.png" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="img/twitter.png" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="img/instagram.png" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="img/tiktok.png" alt=""></li>
+                </a>
+            </ul>
+        </div>
+
+
+        <div class="footer-menu-link">
+            <ul>
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="#">GIỚI THIỆU</a></li>
+                <li><a href="player.html">ĐỘI HÌNH</a></li>
+                <li><a href="thidau.html">THI ĐẤU</a></li>
+                <li><a href="#">SẢN PHẨM</a></li>
+                <li><a href="#">LIÊN HỆ</a></li>
+                <li><a href="loGin.html">ĐĂNG NHẬP</a></li>
+                <span>&copy;2023 Manchester United FC Ltd</span>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+
+
+</html>

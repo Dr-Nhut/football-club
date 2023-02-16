@@ -1,0 +1,173 @@
+ body {
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .header1 {
+        background-color: rgb(159, 18, 18);
+    }
+
+    .header1 img {
+        width: 70px;
+    }
+    .header1 .main-header1{
+        display: inline;
+        background-color: black;
+        color:white;
+        font-family: bebas;
+        font-size: 30px;
+        height: 50px;
+       margin: 10px;
+       padding: 2px;
+       float: right;
+    }
+
+    @font-face {
+        font-family: bebas;
+        src: url(../font/Bebas_Neue/BebasNeue-Regular.ttf);
+    }
+
+    .header2 .sign-up{
+        margin-top: 2px;
+        
+    }
+
+    .header2 .sign-up a{
+
+        width: 70px;
+        background-color: black;
+        color: white;
+        height: 40px;
+        font-size: 25px;
+        font-family: bebas;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 10px;
+        clear: both;
+      
+    }
+
+
+
+    .footer{
+        float: left;
+        
+        
+        background-color: #2a2a2a;
+        width: 100%;
+        min-height: 132px;
+        text-align: center;
+        margin: 0;
+        clear: both;
+        position: relative;
+        
+    }
+    
+    .item{
+        
+       
+        padding-top: 30px;
+        padding-bottom: 100px;
+        margin-left: 550px;
+    
+        
+    }
+    .item ul {
+        
+        list-style: none;
+        
+    }
+    
+    
+    
+    .item ul a li{
+        float: left;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: #3f3f3f;
+        margin-left: 15px;
+        
+    }
+    
+    
+    
+    .item ul li img{
+        
+        text-decoration: none;
+        margin-top: 10px;
+        max-width: 25px;
+        max-height: 25px;
+        object-fit: cover;
+        
+        
+    }
+    
+    .item ul li:hover{
+        background: rgb(159, 18, 18);
+    }
+    
+    .footer-menu-link{
+        background-color: black;
+        padding: 20px;
+    }
+    
+    .footer-menu-link ul li {
+        display: inline;
+        margin-left: 10px;
+        
+    }
+    
+    .footer-menu-link a{
+       
+        color: white;
+        float: left;
+        margin-left: 15px;
+        
+        text-decoration: none;
+    }
+    
+    
+    .footer-menu-link span{
+        float: right;
+        margin-right: 10px;
+        color: whitesmoke;
+        margin-bottom: 16px;
+    }
+    
+    .sponsor{
+        width: 100%;
+        margin-top: -20px;
+        background-color: white;
+    }
+    
+    .sponsor ul li{
+        display: inline;
+        text-decoration: none;
+    }
+    
+    .sponsor ul li img{
+       
+        margin-left: 30px;
+        margin-top: 30px;
+        object-fit: cover;
+        
+    }
+    
+    .sponsor-secondary{
+        margin-top: 0;
+    }
+    
+    
+    .secondary li img{
+        object-fit: cover;
+        margin-bottom: 80px;
+    }
+    
+    
+    hr{
+        padding-top: 2px;
+        margin-bottom: 30px;
+        background-color: aqua;
+    }

@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+@font-face {
+    font-family: bebas-nueue-bold;
+    src: url('../font/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+.header1 {
+
+    background-color: rgb(159, 18, 18);
+}
+
+.header1 img {
+    width: 70px;
+}
+
+.container {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    opacity: .88;
+  
+}
+.clear{
+    clear: both;
+}
+
+.goalkeepes {
+    font-family: bebas-nueue-bold;
+    margin: 30px;
+}
+
+
+
+.container_item { 
+   position: relative;
+   float: left;
+   width: 25%;
+   margin-top: 25px;
+   
+}
+.container_item img{
+    margin-top: 10px;
+   width: 90%;
+   transition: transform 400ms;
+   border-radius: 10px;
+   object-fit: cover;
+}
+
+
+.container_item img:hover {
+    transform: scale(1.2);
+}
+
+
+
+.defen{
+    margin-top: 100px;
+}
+.mid{
+    margin-top: 100px;
+}
+
+.fw{
+    margin-top: 100px;
+}
+
+
+
+.container_content h2{
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    color: white;
+}
+
+.footer{
+    float: left;
+    background-color: #2a2a2a;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    clear: both;
+    position: relative;
+    
+}
+
+.item{
+   
+    padding-top: 10px;
+    padding-bottom: 80px;
+    margin-left: 550px;
+
+    
+}
+.item ul {
+    list-style: none;
+    
+}
+
+
+
+.item ul a li{
+    float: left;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #3f3f3f;
+    margin-left: 15px;
+    
+}
+
+
+
+.item ul li img{
+    
+    text-decoration: none;
+    margin-top: 10px;
+    max-width: 25px;
+    max-height: 25px;
+    object-fit: cover;
+    
+    
+}
+
+.item ul li:hover{
+    background: rgb(159, 18, 18);
+}
+
+.footer-menu-link{
+    background-color: black;
+    padding: 10px;
+}
+
+.footer-menu-link ul li {
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+.footer-menu-link a{
+   
+    color: white;
+    float: left;
+    margin-left: 15px;
+    
+    text-decoration: none;
+}
+
+
+.footer-menu-link span{
+    float: right;
+    margin-right: 10px;
+    color: whitesmoke;
+    margin-bottom: 16px;
+}
+
+.sponsor{
+    width: 100%;
+    margin-top: -16px;
+    background-color: white;
+    
+}
+
+.sponsor ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+.sponsor ul li img{
+   
+    margin-left: 30px;
+    margin-top: 30px;
+    object-fit: cover;
+    
+}
+
+.sponsor-secondary{
+    margin-top: 0;
+}
+
+
+
+.secondary li img{
+    object-fit: cover;
+    margin-bottom: 80px;
+}
+
+hr{
+    padding-top: 2px;
+    margin-bottom: 30px;
+    background-color: aqua;
+}
+
+
+

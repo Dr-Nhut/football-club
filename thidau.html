@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MU | Thi Đấu</title>
+    <link rel="shortcut icon" href="./img/Manchester-United-favicon.ico" type="image/x-icon">
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header1 {
+
+        background-color: rgb(159, 18, 18);
+    }
+
+    .header1 img {
+        width: 70px;
+    }
+
+    .content-main {
+        background-color: black;
+
+
+    }
+
+    @font-face {
+        font-family: bebas;
+        src: url(../NienLuanCSNganh/font/Bebas_Neue/BebasNeue-Regular.ttf);
+    }
+
+    h2 {
+        color: whitesmoke;
+        margin: 0;
+        margin-left: 100px;
+        padding: 0;
+
+        width: 50px;
+        font-size: 50px;
+        font-family: bebas;
+    }
+
+    .fixtures {
+
+
+        margin: 50px;
+    }
+
+    .fixtures ul li {
+        display: inline;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 580;
+        color: black;
+        font-family: bebas;
+
+    }
+
+
+    .box-match h3 {
+        color: black;
+        font-size: 30px;
+        font-family: bebas;
+        font-weight: 100;
+        margin-left: 150px;
+
+
+    }
+
+    .box2 {
+        text-align: center;
+
+    }
+
+    .box1 {
+
+
+
+        padding-top: 20px;
+        background-color: #f5f5f5;
+        height: 44px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 5px;
+    }
+
+    .box1 span {
+        font-size: 17px;
+        margin-left: 20px;
+
+        /* font-family: bebas; */
+        font-weight: 200;
+    }
+
+    .box2 ul li {
+        display: inline;
+    }
+
+    .box2 ul li img {
+        object-fit: cover;
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: -5px;
+        margin-top: 20px;
+
+
+    }
+
+    .box2 ul li span {
+        font-weight: 200;
+        font-size: 30px;
+        font-family: bebas;
+    }
+
+    .box2 ul li .time {
+        margin-bottom: -5px;
+        background-color: #707070;
+        padding: 5px;
+        border-radius: 5px;
+        color: whitesmoke;
+    }
+
+    .box2 .ticker {
+        font-size: 30px;
+        margin-left: 70px;
+        margin-bottom: -10px;
+        font-family: bebas;
+    }
+
+    .footer {
+        float: left;
+        background-color: #2a2a2a;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        position: relative;
+
+    }
+
+    .item {
+
+        padding-top: 40px;
+        padding-bottom: 80px;
+        margin-left: 550px;
+
+
+    }
+
+    .item ul {
+        list-style: none;
+
+    }
+
+
+
+    .item ul a li {
+        float: left;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: #3f3f3f;
+        margin-left: 15px;
+
+    }
+
+
+
+    .item ul li img {
+
+        text-decoration: none;
+        margin-top: 10px;
+        max-width: 25px;
+        max-height: 25px;
+        object-fit: cover;
+
+
+    }
+
+    .item ul li:hover {
+        background: rgb(159, 18, 18);
+    }
+
+    .footer-menu-link {
+        background-color: black;
+        padding: 10px;
+    }
+
+    .footer-menu-link ul li {
+        display: inline;
+        margin-left: 10px;
+
+    }
+
+    .footer-menu-link a {
+
+        color: white;
+        float: left;
+        margin-left: 15px;
+
+        text-decoration: none;
+    }
+
+
+    .footer-menu-link span {
+        float: right;
+        margin-right: 10px;
+        color: whitesmoke;
+        margin-bottom: 16px;
+    }
+
+    .sponsor {
+        width: 100%;
+        margin-top: -20px;
+        background-color: white;
+
+    }
+
+    .sponsor ul li {
+        display: inline;
+        text-decoration: none;
+    }
+
+    .sponsor ul li img {
+
+        margin-left: 30px;
+        margin-top: 30px;
+        object-fit: cover;
+
+    }
+
+    .sponsor-secondary {
+        margin-top: 0;
+    }
+
+
+
+    .secondary li img {
+        object-fit: cover;
+        margin-bottom: 80px;
+    }
+
+    hr {
+        padding-top: 2px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        background-color: aqua;
+    }
+</style>
+
+<body>
+
+    <div class="header1">
+        <a href="index.html"><img src="img/logo-manchester-united-4.png" alt=""></a>
+    </div>
+
+    <div class="fixtures">
+        <ul>
+            <a href="#" style="text-decoration: none">
+                <li>Premier League |</li>
+            </a>
+            <a href="#" style="text-decoration: none">
+                <li>FA Cup |</li>
+            </a>
+            <a href="#" style="text-decoration: none">
+                <li>League Cup | </li>
+            </a>
+            <a href="#" style="text-decoration: none;">
+                <li>Europa league</li>
+            </a>
+        </ul>
+
+    </div>
+
+
+    <div class="content-main">
+        <h2>MATCH</h2>
+    </div>
+
+
+    <div class="box-match">
+        <h3>February 2023</h3>
+
+        <!--  -->
+        <div class="box1">
+            <span>Thu 09 Feb | English Premier League</span>
+        </div>
+
+
+        <div class="box2">
+            <ul>
+                <li class="fisrt-team">
+                    <span>Man Utd</span>
+                    <span><img src="img/fisrt-tem.png" alt=""></span>
+
+                </li>
+                <li class="fixtures-score">
+                    <span class="time">15:00</span>
+                </li>
+                <li class="second-team">
+
+                    <span><img src="img/Leeds_United_team.png" alt=""></span>
+                    <span>Leeds</span>
+                </li>
+
+
+            </ul>
+            <span class="ticker">Mua Vé</span>
+
+        </div>
+
+        <!--  -->
+        <div class="box1">
+            <span>Sun 12 Feb | English Premier League</span>
+        </div>
+
+        <div class="box2">
+            <ul>
+                <li class="fisrt-team">
+                    <span>Leeds Unite</span>
+                    <span><img src="img/Leeds_United_team.png" alt=""></span>
+
+                </li>
+                <li class="fixtures-score">
+                    <span class="time">21:00</span>
+                </li>
+                <li class="second-team">
+
+                    <span><img src="img/fisrt-tem.png" alt=""></span>
+                    <span>Man Utd</span>
+                </li>
+
+
+            </ul>
+            <span class="ticker">Mua Vé</span>
+
+        </div>
+
+        <!--  -->
+
+        <div class="box1">
+            <span>Fri 17 Feb | UEFA Europa League</span>
+        </div>
+
+        <div class="box2">
+            <ul>
+                <li class="fisrt-team">
+                    <span> FCBarcelon</span>
+                    <span><img src="img/barca.png" alt=""></span>
+
+                </li>
+                <li class="fixtures-score">
+                    <span class="time">00:45</span>
+                </li>
+                <li class="second-team">
+
+                    <span><img src="img/fisrt-tem.png" alt=""></span>
+                    <span>Man Utd</span>
+                </li>
+
+
+            </ul>
+            <span class="ticker">Mua Vé</span>
+
+        </div>
+
+        <!--  -->
+
+
+        <h3>March 2023</h3>
+
+        <div class="box1">
+            <span>Thu 02 Mar | English FA Cup</span>
+        </div>
+
+        <div class="box2">
+            <ul>
+                <li class="fisrt-team">
+                    <span> Man United</span>
+                    <span><img src="img/fisrt-tem.png" alt=""></span>
+
+                </li>
+                <li class="fixtures-score">
+                    <span class="time">02:45</span>
+                </li>
+                <li class="second-team">
+
+                    <span><img src="img/west-ham.png" alt=""></span>
+                    <span>West Ham</span>
+                </li>
+
+
+            </ul>
+            <span class="ticker">Mua Vé</span>
+
+        </div>
+
+        <!--  -->
+
+        <div class="box1">
+
+            <span>Sun 05 Mar | English Premier League</span>
+        </div>
+
+        <div class="box2">
+            <ul>
+                <li class="fisrt-team">
+                    <span>Liverpool</span>
+                    <span><img src="img/liverpool.png" alt=""></span>
+
+                </li>
+                <li class="fixtures-score">
+                    <span class="time">21:00</span>
+                </li>
+                <li class="second-team">
+
+                    <span><img src="img/fisrt-tem.png" alt=""></span>
+                    <span>Man Utd</span>
+                </li>
+
+
+            </ul>
+            <span class="ticker">Mua Vé</span>
+
+        </div>
+
+        <!--  -->
+
+        <div class="box1">
+
+            <span>Sun 19 Mar | English Premier League</span>
+        </div>
+
+        <div class="box2">
+            <ul>
+                <li class="fisrt-team">
+                    <span>Brighton</span>
+                    <span><img src="img/brighton.png" alt=""></span>
+
+                </li>
+                <li class="fixtures-score">
+                    <span class="time">18:00</span>
+                </li>
+                <li class="second-team">
+
+                    <span><img src="img/fisrt-tem.png" alt=""></span>
+                    <span>Man Utd</span>
+                </li>
+
+
+            </ul>
+            <span class="ticker">Mua Vé</span>
+
+        </div>
+
+    </div>
+    <hr>
+
+    <div class="footer">
+
+
+        <div class="sponsor">
+            <ul>
+                <li><img width="70px" src="img/Adidas_đen.jpg" alt=""></li>
+                <li><img width="200px" src="img/TeamViewer-đen.jpg" alt=""></li>
+                <li><img width="120px" src="img/TezosLogo_đen.jpg" alt=""></li>
+                <li><img width="100px" src="img/DXC_Lđen.jpg" alt=""></li>
+            </ul>
+
+            <div class="clear"></div>
+            <div class="sponsor-secondary">
+                <ul class="secondary">
+                    <li><img width="100px" src="img/Apollo.png" alt=""></li>
+                    <li><img width="100px" src="img/Chevrolet.png" alt=""></li>
+                    <li><img width="100px" src="img/Cadbury.png" alt=""></li>
+                    <li><img width="80px" src="img/Canon.jpg" alt=""></li>
+                    <li><img width="130px" src="img/Konami.png" alt=""></li>
+                    <li><img width="100px" src="img/Kohler.png" alt=""></li>
+                    <li><img width="130px" src="img/Ecolab.png" alt=""></li>
+                    <li><img width="150px" src="img/Remington.png" alt=""></li>
+                </ul>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+        <div class="item">
+
+
+            <ul>
+                <a href="#">
+                    <li><img src="img/youtube.png" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="img/facebook.png" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="img/twitter.png" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="img/instagram.png" alt=""></li>
+                </a>
+                <a href="#">
+                    <li><img src="img/tiktok.png" alt=""></li>
+                </a>
+            </ul>
+        </div>
+
+
+        <div class="footer-menu-link">
+            <ul>
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="#">GIỚI THIỆU</a></li>
+                <li><a href="player.html">ĐỘI HÌNH</a></li>
+                <li><a href="thidau.html">THI ĐẤU</a></li>
+                <li><a href="#">SẢN PHẨM</a></li>
+                <li><a href="#">LIÊN HỆ</a></li>
+                <li><a href="loGin.html">ĐĂNG NHẬP</a></li>
+                <span>&copy;2023 Manchester United FC Ltd</span>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
